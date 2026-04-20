@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Submit Complaint</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+header {
+    background: #132849;
+    padding: 15px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    width: 50%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+buttonL:hover{
+    background: #0d47a1;
+    transform: translateY(-2px);
+}
+nav a:hover{
+    color: #ffcc00;
+}
+button {
+    background: #2c5aa0;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 85px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="complaint.html">Submit Complaint</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<div class="container">
+    <h2>Submit a Complaint</h2>
+
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea rows="5" placeholder="Complaint / Feedback"></textarea>
+        <button type="submit"><a href="index.html">Submit Complaint</a></button>
+    </form>
+</div>
+
+<footer>
+    © 2026 Student Complaint System
+</footer>
+
+</body>
+</html>
